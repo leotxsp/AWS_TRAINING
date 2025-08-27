@@ -1,0 +1,11 @@
+# List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
+tasks:
+  # Instalar o aws-cli quando o gitpod iniciar documentação AWS-cli https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+  - name: AWS-cli
+    before: 
+      cd /workspace/
+      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+      unzip awscliv2.zip
+      sudo ./aws/install
+      cd $THEIA_WORKSPACE_ROOT # Caminho para o projeto pode ser enontrado com o env | grep "nome do diretório/repositório"
+
