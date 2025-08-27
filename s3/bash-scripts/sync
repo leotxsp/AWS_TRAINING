@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-#lembrar de usar chmod u+x local do arquivo ou pasta
-
-aws s3api create-bucket --bucket
