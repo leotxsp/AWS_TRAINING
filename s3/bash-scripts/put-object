@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+#cria os arquvios aleátórios em uma pasta temporária
+OUTPUT_DIR="/tmp/s3-bash-scripts"
+
+mkdir -p $OUTPUT_DIR

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+echo "== listado bucket"
+
+#lembrar de usar chmod u+x local do arquivo ou pasta
+# verifica se algum nome foi informado | o -z verifica se a string é valida ou existe
+if [ -z "$1" ]; then
+    echo "Nome do bucket não informado"
+    exit 1
+fi
+
+BUCKET_NAME=$1
+#https://docs.aws.amazon.com/cli/latest/reference/s3api/list-objects-v2.html
+aws s3api List-objects-v2 \
+--bucket $BUCKET_NAME \
+
