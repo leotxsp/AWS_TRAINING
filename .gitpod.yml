@@ -9,3 +9,4 @@ tasks:
       sudo ./aws/install
       cd $THEIA_WORKSPACE_ROOT # Caminho para o projeto pode ser enontrado com o env | grep "nome do diretório/repositório"
 
+# lembrar de setar o .env usando o formato da documentação https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-envvars.html
