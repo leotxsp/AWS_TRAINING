@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "== create bucket"
+echo "== Criando bucket"
 
 #lembrar de usar chmod u+x local do arquivo ou pasta
 # verifica se algum nome foi informado | o -z verifica se a string é valida ou existe
