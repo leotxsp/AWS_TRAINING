@@ -7,6 +7,7 @@ tasks:
       curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
       unzip awscliv2.zip
       sudo ./aws/install
-      cd $THEIA_WORKSPACE_ROOT # Caminho para o projeto pode ser enontrado com o env | grep "nome do diretório/repositório"
+      cd $THEIA_WORKSPACE_ROOT
+#Caminho para o projeto pode ser enontrado com o env | grep "nome do diretório/repositório"
 
 # lembrar de setar o .env usando o formato da documentação https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-envvars.html
